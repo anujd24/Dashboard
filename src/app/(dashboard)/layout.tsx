@@ -10,7 +10,7 @@ export default function DashboardLayout({
         {/* Left */}
         <div className="w-[14%] bg-blue-300">
             <Link href="/">
-                <Image src="logo.png" alt="logo" width={32} height={32}></Image>
+                <Image src="/logo.png" alt="logo" width={32} height={32}></Image>
                 <span></span>
             </Link>
         </div>
