@@ -118,20 +118,20 @@ const menuItems = [
 
 const Menu = () => {
     return (
-        <div>
+        <div className="mt-4 text-sm">
             {menuItems.map((i)=>(
-                <div key={i.title}>
-                    <span>
+                <div className="flex flex-col gap-2" key={i.title}>
+                    <span className="hidden lg:block text-gray-300 font-light my-4">
                         {i.title}
                     </span>
                     {i.items.map((item)=>(
                         <Link 
                         href={item.href}
                         key={item.label}
-                        className=""
+                        className="flex items-center justify-center lg:justify-start gap-4 text-white py-2"
                         >
                             <Image src={item.icon} alt="" width={20} height={20}></Image>
-                            <span>{item.label}</span>
+                            <span className="hidden lg:block">{item.label}</span>
                         </Link>
                     ))}
                 </div>
