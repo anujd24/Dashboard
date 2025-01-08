@@ -3,7 +3,18 @@ import UserCard from '@/components/UserCard'
 
 function adminPage() {
   return (
-    <div>adminPage</div>
+    <div>
+      <div>
+        <div>
+          <UserCard type='Tenant'></UserCard>
+          <UserCard type='Landlord'></UserCard>
+          <UserCard type='Manager'></UserCard>
+          <UserCard type='Helper'></UserCard>
+        </div>
+      </div>
+      
+      <div>r</div>
+    </div>
   )
 }
 
