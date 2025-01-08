@@ -23,7 +23,7 @@ function adminPage() {
             <CountChart/>
             </div>
             {/* Attendance chart */}
-            <div>Attenda</div>
+            <div><AttendanceChart/></div>
           </div>
 
           {/* Bottom Charts */}
