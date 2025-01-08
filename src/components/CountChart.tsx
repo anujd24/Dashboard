@@ -59,8 +59,19 @@ const CountChart = () => {
             </div>
 
             {/* Chart */}
-            <div>
-
+            <div className='w-full h-[75%]'>
+            <ResponsiveContainer>
+            <RadialBarChart cx="50%" cy="50%" innerRadius="10%" outerRadius="80%" barSize={10} data={data}>
+            <RadialBar
+        
+            label={{ position: 'insideStart', fill: '#fff' }}
+            background
+            dataKey="uv"
+          />
+          <Legend iconSize={10} layout="vertical" verticalAlign="middle" />
+        </RadialBarChart>
+      </ResponsiveContainer>
+    
             </div>
 
             {/* Bottom */}
@@ -72,7 +83,7 @@ const CountChart = () => {
               </div>
 
               <div className='flex flex-col gap-1'>
-                <div className='w-5 h-5 bg-adSky rounded-full'></div>
+                <div className='w-5 h-5 bg-adYellow rounded-full'></div>
                 <h1 className='font-bold'>4,567</h1>
                 <h2 className='text-xs text-gray-300'>Multiple (90%)</h2>
               </div>
