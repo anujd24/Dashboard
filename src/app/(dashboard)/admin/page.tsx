@@ -1,6 +1,7 @@
 import React from 'react'
 import UserCard from '@/components/UserCard'
 import CountChart from '@/components/CountChart'
+import AttendanceChart from '@/components/AttendanceChart'
 
 function adminPage() {
   return (
@@ -22,7 +23,7 @@ function adminPage() {
             <CountChart/>
             </div>
             {/* Attendance chart */}
-            <div></div>
+            <div>Attenda</div>
           </div>
 
           {/* Bottom Charts */}
