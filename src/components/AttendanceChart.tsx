@@ -1,5 +1,7 @@
 "use client"
 
+import Image from "next/image";
+
 const data = [
     {
       name: 'Mon',
@@ -25,7 +27,12 @@ const data = [
 
 const AttendanceChart = () => {
     return (
-        <div>AttendanceChart</div>
+        <div>
+            <div>
+                <h1>Attendance</h1>
+
+            </div>
+        </div>
     )
 }
 
