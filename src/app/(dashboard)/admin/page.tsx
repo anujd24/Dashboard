@@ -27,7 +27,7 @@ function adminPage() {
           </div>
 
           {/* Bottom Charts */}
-          <div></div>
+          <div className='w-full h-[500px]'></div>
       </div>
       
       {/* RIGHT SIDE */}
