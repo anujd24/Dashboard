@@ -50,7 +50,16 @@ const data = [
 
 const CountChart = () => {
     return(
-        <div>CountChart</div>
+        <div>
+            {/* Title */}
+            <div></div>
+
+            {/* Chart */}
+            <div></div>
+
+            {/* Bottom */}
+            <div></div>
+        </div>
     )
 }
 
