@@ -2,6 +2,7 @@
 
 import React, { PureComponent } from 'react';
 import { RadialBarChart, RadialBar, Legend, ResponsiveContainer } from 'recharts';
+import Image from 'next/image';
 
 const data = [
   {
@@ -50,12 +51,17 @@ const data = [
 
 const CountChart = () => {
     return(
-        <div>
+        <div className='bg-white rounded-xl w-full h-full p-4'>
             {/* Title */}
-            <div></div>
+            <div className='flex justify-between items-center'>
+                <h1>Tenants</h1>
+                <Image src={"/moreDark.png"} alt='' height={20} width={20}></Image>
+            </div>
 
             {/* Chart */}
-            <div></div>
+            <div>
+
+            </div>
 
             {/* Bottom */}
             <div></div>
