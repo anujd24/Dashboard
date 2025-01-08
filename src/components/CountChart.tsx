@@ -7,13 +7,18 @@ import Image from 'next/image';
 const data = [
   {
     name: 'Single',
-    uv: 10,
-    fill: '#8884d8',
+    count: 10,
+    fill: '#FAE27C',
+  },
+  {
+    name: 'Total',
+    count: 100,
+    fill: 'white',
   },
   {
     name: 'Multiple',
-    uv: 90,
-    fill: '#83a6ed',
+    count: 90,
+    fill: '#C3EBFA',
   }
 ];
 
@@ -29,14 +34,13 @@ const CountChart = () => {
             {/* Chart */}
             <div className='w-full h-[75%]'>
             <ResponsiveContainer>
-            <RadialBarChart cx="50%" cy="50%" innerRadius="10%" outerRadius="80%" barSize={10} data={data}>
+            <RadialBarChart cx="50%" cy="50%" innerRadius="40%" outerRadius="100%" barSize={32} data={data}>
             <RadialBar
         
-            label={{ position: 'insideStart', fill: '#fff' }}
+            
             background
-            dataKey="uv"
+            dataKey="count"
           />
-          <Legend iconSize={10} layout="vertical" verticalAlign="middle" />
         </RadialBarChart>
       </ResponsiveContainer>
     
