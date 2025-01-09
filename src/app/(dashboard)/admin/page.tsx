@@ -4,6 +4,7 @@ import CountChart from '@/components/CountChart'
 import AttendanceChart from '@/components/AttendanceChart'
 import FinanceChart from '@/components/FinanceChart'
 import EventCalendar from '@/components/EventCalendar'
+import Announcement from '@/components/Announcement'
 
 function adminPage() {
   return (
