@@ -35,7 +35,10 @@ const EventCalendar = () => {
     const [value, onChange] = useState<Value>(new Date());
 
    return (
-    <div className="bg-white p-4 rounded-md"> <Calendar onChange={onChange} value={value} /></div>
+    <div className="bg-white p-4 rounded-md"> 
+    <Calendar onChange={onChange} value={value} />
+        
+    </div>
 
    ) 
 }
