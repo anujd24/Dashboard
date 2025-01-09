@@ -65,7 +65,10 @@ const data = [
           <XAxis  axisLine={false} tick={{fill:"#d1d5db"}} tickLine={false}/>
           <YAxis axisLine={false} tick={{fill:"#d1d5db"}} tickLine={false} />
           <Tooltip />
-          <Legend />
+          <Legend 
+            align='left' 
+            verticalAlign='top' 
+            wrapperStyle={{paddingTop:"20px", paddingBottom:"40px"}}/>
           <Line type="monotone" dataKey="expense" stroke="#8884d8" activeDot={{ r: 8 }} />
           <Line type="monotone" dataKey="income" stroke="#82ca9d" />
         </LineChart>
