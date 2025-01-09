@@ -5,44 +5,44 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Responsi
 const data = [
     {
       name: 'Jan',
-      uv: 4000,
-      pv: 2400,
+      income: 4000,
+      expense: 2400,
       amt: 2400,
     },
     {
       name: 'Feb',
-      uv: 3000,
-      pv: 1398,
+      income: 3000,
+      expense: 1398,
       amt: 2210,
     },
     {
       name: 'Mar',
-      uv: 2000,
-      pv: 9800,
+      income: 2000,
+      expense: 9800,
       amt: 2290,
     },
     {
       name: 'June',
-      uv: 2780,
-      pv: 3908,
+      income: 2780,
+      expense: 3908,
       amt: 2000,
     },
     {
       name: 'July',
-      uv: 1890,
-      pv: 4800,
+      income: 1890,
+      expense: 4800,
       amt: 2181,
     },
     {
       name: 'Aug',
-      uv: 2390,
-      pv: 3800,
+      income: 2390,
+      expense: 3800,
       amt: 2500,
     },
     {
       name: 'Sep',
-      uv: 3490,
-      pv: 4300,
+      income: 3490,
+      expense: 4300,
       amt: 2100,
     },
   ];
@@ -54,6 +54,27 @@ const data = [
                 <h1 className="text-lg font-semibold">Finance</h1>
                 <Image src={"/moreDark.png"} alt="" width={20} height={20}></Image>
             </div>
+            <ResponsiveContainer width="100%" height="90%">
+        <LineChart
+          width={500}
+          height={300}
+          data={data}
+          margin={{
+            top: 5,
+            right: 30,
+            left: 20,
+            bottom: 5,
+          }}
+        >
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="name" />
+          <YAxis />
+          <Tooltip />
+          <Legend />
+          <Line type="monotone" dataKey="expense" stroke="#8884d8" activeDot={{ r: 8 }} />
+          <Line type="monotone" dataKey="income" stroke="#82ca9d" />
+        </LineChart>
+      </ResponsiveContainer>
         </div>
     )
   }
