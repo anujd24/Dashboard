@@ -62,8 +62,8 @@ const data = [
           }}
         >
           <CartesianGrid strokeDasharray="3 3" stroke="#ddd"/>
-          <XAxis  axisLine={false} tick={{fill:"#d1d5db"}} tickLine={false}/>
-          <YAxis axisLine={false} tick={{fill:"#d1d5db"}} tickLine={false} />
+          <XAxis  axisLine={false} tick={{fill:"#d1d5db"}} tickLine={false} tickMargin={20}/>
+          <YAxis axisLine={false} tick={{fill:"#d1d5db"}} tickLine={false} tickMargin={20} />
           <Tooltip />
           <Legend 
             align='left' 
