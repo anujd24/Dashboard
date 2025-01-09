@@ -2,6 +2,7 @@ import React from 'react'
 import UserCard from '@/components/UserCard'
 import CountChart from '@/components/CountChart'
 import AttendanceChart from '@/components/AttendanceChart'
+import FinanceChart from '@/components/FinanceChart'
 
 function adminPage() {
   return (
@@ -27,7 +28,9 @@ function adminPage() {
           </div>
 
           {/* Bottom Charts */}
-          <div className='w-full h-[500px]'></div>
+          <div className='w-full h-[500px]'>
+            <FinanceChart/>
+          </div>
       </div>
       
       {/* RIGHT SIDE */}
