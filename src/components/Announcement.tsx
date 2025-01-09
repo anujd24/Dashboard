@@ -1,6 +1,8 @@
 const Announcement = () => {
     return (
-        <div></div>
+        <div className="">
+
+        </div>
     )
 }
 
