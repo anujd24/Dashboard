@@ -61,7 +61,7 @@ const data = [
             bottom: 5,
           }}
         >
-          <CartesianGrid strokeDasharray="3 3" />
+          <CartesianGrid strokeDasharray="3 3" stroke="#ddd"/>
           <XAxis  axisLine={false} tick={{fill:"#d1d5db"}} tickLine={false}/>
           <YAxis axisLine={false} tick={{fill:"#d1d5db"}} tickLine={false} />
           <Tooltip />
