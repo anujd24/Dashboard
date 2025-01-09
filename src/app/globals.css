@@ -7,3 +7,8 @@
     border: none !important;
     font-family: "Inter", sans-serif !important;
 }
+
+.react-calendar__navigation__label__labelText{
+    font-weight: 600;
+}
+
