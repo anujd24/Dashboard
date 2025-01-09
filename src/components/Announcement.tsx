@@ -3,3 +3,5 @@ const Announcement = () => {
         <div></div>
     )
 }
+
+export default Announcement
