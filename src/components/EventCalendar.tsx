@@ -1,3 +1,5 @@
+"use client"
+
 const EventCalendar = () => {
     <div></div>
 }
