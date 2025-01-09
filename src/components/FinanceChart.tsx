@@ -69,7 +69,7 @@ const data = [
             align='left' 
             verticalAlign='top' 
             wrapperStyle={{paddingTop:"10px", paddingBottom:"30px"}}/>
-          <Line type="monotone" dataKey="expense" stroke="#8884d8" strokeWidth={5} />
+          <Line type="monotone" dataKey="expense" stroke="#c3ebfa" strokeWidth={5} />
           <Line type="monotone" dataKey="income" stroke="#82ca9d" strokeWidth={5}/>
         </LineChart>
       </ResponsiveContainer>
