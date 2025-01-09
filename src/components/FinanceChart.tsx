@@ -62,8 +62,8 @@ const data = [
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis  />
-          <YAxis />
+          <XAxis  axisLine={false} tick={{fill:"#d1d5db"}} tickLine={false}/>
+          <YAxis axisLine={false} tick={{fill:"#d1d5db"}} tickLine={false} />
           <Tooltip />
           <Legend />
           <Line type="monotone" dataKey="expense" stroke="#8884d8" activeDot={{ r: 8 }} />
