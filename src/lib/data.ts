@@ -616,4 +616,66 @@ export const tenantsData = [
     },
   ];
  
+  export const propertyInspectionsData = [
+    {
+      id: 1,
+      property: "Sunny Apartment 1B",
+      inspector: "John Doe",
+      date: "2025-01-01",
+    },
+    {
+      id: 2,
+      property: "Cozy House 2A",
+      inspector: "Jane Smith",
+      date: "2025-01-02",
+    },
+    {
+      id: 3,
+      property: "Modern Condo 3C",
+      inspector: "Mike Geller",
+      date: "2025-01-03",
+    },
+    {
+      id: 4,
+      property: "Spacious Loft 4B",
+      inspector: "Sarah Connor",
+      date: "2025-01-04",
+    },
+    {
+      id: 5,
+      property: "Charming Villa 5A",
+      inspector: "Emma Watson",
+      date: "2025-01-05",
+    },
+    {
+      id: 6,
+      property: "Luxury Condo 5B",
+      inspector: "James Smith",
+      date: "2025-01-06",
+    },
+    {
+      id: 7,
+      property: "Family Townhouse 7A",
+      inspector: "Rachel Green",
+      date: "2025-01-07",
+    },
+    {
+      id: 8,
+      property: "Elegant Studio 6B",
+      inspector: "Ross Geller",
+      date: "2025-01-08",
+    },
+    {
+      id: 9,
+      property: "Seaside Cottage 6C",
+      inspector: "Monica Geller",
+      date: "2025-01-09",
+    },
+    {
+      id: 10,
+      property: "Modern Penthouse 6D",
+      inspector: "Phoebe Buffay",
+      date: "2025-01-10",
+    },
+  ];
   
