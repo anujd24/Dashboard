@@ -440,4 +440,86 @@ export const tenantsData = [
     },
   ];
 
+  export const propertyListingsData = [
+    {
+      id: 1,
+      name: "Sunny Apartment 1B",
+      capacity: 4, // Maximum number of tenants
+      location: "Anytown, USA",
+      price: 1500,
+      propertyManager: "Joseph Padilla",
+    },
+    {
+      id: 2,
+      name: "Cozy House 2A",
+      capacity: 6,
+      location: "Oakland, USA",
+      price: 2500,
+      propertyManager: "Blake Joseph",
+    },
+    {
+      id: 3,
+      name: "Modern Condo 3C",
+      capacity: 3,
+      location: "San Francisco, USA",
+      price: 2200,
+      propertyManager: "Tom Bennett",
+    },
+    {
+      id: 4,
+      name: "Spacious Loft 4B",
+      capacity: 5,
+      location: "Los Angeles, USA",
+      price: 2000,
+      propertyManager: "Aaron Collins",
+    },
+    {
+      id: 5,
+      name: "Charming Villa 5A",
+      capacity: 8,
+      location: "Miami, USA",
+      price: 3500,
+      propertyManager: "Iva Frank",
+    },
+    {
+      id: 6,
+      name: "Luxury Condo 5B",
+      capacity: 4,
+      location: "New York, USA",
+      price: 4000,
+      propertyManager: "Leila Santos",
+    },
+    {
+      id: 7,
+      name: "Family Townhouse 7A",
+      capacity: 6,
+      location: "Chicago, USA",
+      price: 2800,
+      propertyManager: "Carrie Walton",
+    },
+    {
+      id: 8,
+      name: "Elegant Studio 6B",
+      capacity: 2,
+      location: "Seattle, USA",
+      price: 1800,
+      propertyManager: "Christopher Butler",
+    },
+    {
+      id: 9,
+      name: "Seaside Cottage 6C",
+      capacity: 4,
+      location: "Santa Monica, USA",
+      price: 2100,
+      propertyManager: "Marc Miller",
+    },
+    {
+      id: 10,
+      name: "Modern Penthouse 6D",
+      capacity: 3,
+      location: "Las Vegas, USA",
+      price: 5000,
+      propertyManager: "Ophelia Marsh",
+    },
+  ];
   
