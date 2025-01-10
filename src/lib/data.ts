@@ -995,8 +995,8 @@ export const tenantsData = [
     {
       title: "Sunny Apartment 1A Viewing",
       allDay: false,
-      start: new Date(2025, 0, 1, 8, 0),
-      end: new Date(2025, 0, 1, 8, 45),
+      start: new Date(2024, 0, 1, 8, 0),
+      end: new Date(2024, 0, 1, 8, 45),
     },
     {
       title: "Cozy House 2A Viewing",
@@ -1091,8 +1091,8 @@ export const tenantsData = [
     {
       title: "Family Townhouse 7A Viewing",
       allDay: false,
-      start: new Date(2025, 0, 4, 9, 0),
-      end: new Date(2025, 0, 4, 9, 45),
+      start: new Date(2024, 7, 16, 14, 0),
+    end: new Date(2024, 7, 16, 14, 45),
     },
   ];
     
