@@ -304,3 +304,86 @@ export const tenantsData = [
   ];
 
   
+  export const propertyManagersData = [
+    {
+      id: 1,
+      name: "John Doe",
+      managedProperties: ["Ocean View Apartment"],
+      email: "john.doe@propertymanager.com",
+      phone: "1234567890",
+      address: "123 Main St, Miami, FL",
+    },
+    {
+      id: 2,
+      name: "Jane Doe",
+      managedProperties: ["Downtown Loft"],
+      email: "jane.doe@propertymanager.com",
+      phone: "1234567890",
+      address: "456 Main St, New York, NY",
+    },
+    {
+      id: 3,
+      name: "Mike Geller",
+      managedProperties: ["Suburban House"],
+      email: "mike.geller@propertymanager.com",
+      phone: "1234567890",
+      address: "789 Pine St, Springfield, IL",
+    },
+    {
+      id: 4,
+      name: "Jay French",
+      managedProperties: ["Luxury Condo", "Urban Penthouse"],
+      email: "jay.french@propertymanager.com",
+      phone: "1234567890",
+      address: "101 Palm Drive, Los Angeles, CA",
+    },
+    {
+      id: 5,
+      name: "Jane Smith",
+      managedProperties: ["City Studio"],
+      email: "jane.smith@propertymanager.com",
+      phone: "1234567890",
+      address: "202 Central Ave, Boston, MA",
+    },
+    {
+      id: 6,
+      name: "Anna Santiago",
+      managedProperties: ["Lakefront Villa"],
+      email: "anna.santiago@propertymanager.com",
+      phone: "1234567890",
+      address: "303 Lakeview Rd, Austin, TX",
+    },
+    {
+      id: 7,
+      name: "Allen Black",
+      managedProperties: ["Mountain Cabin", "Countryside Cottage"],
+      email: "allen.black@propertymanager.com",
+      phone: "1234567890",
+      address: "404 Alpine St, Denver, CO",
+    },
+    {
+      id: 8,
+      name: "Ophelia Castro",
+      managedProperties: ["Urban Penthouse"],
+      email: "ophelia.castro@propertymanager.com",
+      phone: "1234567890",
+      address: "505 Skyline Ave, Seattle, WA",
+    },
+    {
+      id: 9,
+      name: "Derek Briggs",
+      managedProperties: ["Countryside Cottage", "Modern Duplex"],
+      email: "derek.briggs@propertymanager.com",
+      phone: "1234567890",
+      address: "606 Meadow Ln, Nashville, TN",
+    },
+    {
+      id: 10,
+      name: "John Glover",
+      managedProperties: ["Modern Duplex"],
+      email: "john.glover@propertymanager.com",
+      phone: "1234567890",
+      address: "707 Grove St, Chicago, IL",
+    },
+  ];
+  
