@@ -3,7 +3,7 @@ import moment from 'moment'
 
 const localizer = momentLocalizer(moment)
 
-const BigCalendar = (props) => (
+const BigCalendar = () => (
   <div>
     <Calendar
       localizer={localizer}
