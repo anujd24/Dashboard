@@ -387,4 +387,56 @@ export const tenantsData = [
     },
   ];
  
+  export const propertyCategoriesData = [
+    {
+      id: 1,
+      name: "Apartment",
+      propertyManagers: ["John Doe", "Jane Smith"],
+    },
+    {
+      id: 2,
+      name: "House",
+      propertyManagers: ["Mike Geller", "Jay French"],
+    },
+    {
+      id: 3,
+      name: "Condo",
+      propertyManagers: ["Anna Santiago", "Ophelia Castro"],
+    },
+    {
+      id: 4,
+      name: "Loft",
+      propertyManagers: ["Allen Black", "Derek Briggs"],
+    },
+    {
+      id: 5,
+      name: "Villa",
+      propertyManagers: ["Lora French", "Sue Brady"],
+    },
+    {
+      id: 6,
+      name: "Cottage",
+      propertyManagers: ["Harriet Alvarado", "Mayme Keller"],
+    },
+    {
+      id: 7,
+      name: "Penthouse",
+      propertyManagers: ["Gertrude Roy", "Rosa Singleton"],
+    },
+    {
+      id: 8,
+      name: "Studio",
+      propertyManagers: ["Effie Lynch", "Brett Flowers"],
+    },
+    {
+      id: 9,
+      name: "Townhouse",
+      propertyManagers: ["Hannah Bowman", "Betty Obrien"],
+    },
+    {
+      id: 10,
+      name: "Farmhouse",
+      propertyManagers: ["Alice Phelps", "Russell Davidson"],
+    },
+  ];
   
