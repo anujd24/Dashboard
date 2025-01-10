@@ -678,4 +678,77 @@ export const tenantsData = [
       date: "2025-01-10",
     },
   ];
-  
+ 
+  export const propertyMaintenanceTasksData = [
+    {
+      id: 1,
+      property: "Sunny Apartment 1A",
+      task: "Fix leaking faucet",
+      maintenanceStaff: "Anthony Boone",
+      dueDate: "2025-01-01",
+    },
+    {
+      id: 2,
+      property: "Cozy House 2A",
+      task: "Repair damaged door",
+      maintenanceStaff: "Clifford Bowen",
+      dueDate: "2025-01-01",
+    },
+    {
+      id: 3,
+      property: "Modern Condo 3C",
+      task: "Clean air conditioning unit",
+      maintenanceStaff: "Catherine Malone",
+      dueDate: "2025-01-01",
+    },
+    {
+      id: 4,
+      property: "Spacious Loft 4B",
+      task: "Replace broken window",
+      maintenanceStaff: "Willie Medina",
+      dueDate: "2025-01-01",
+    },
+    {
+      id: 5,
+      property: "Charming Villa 5A",
+      task: "Check plumbing for leaks",
+      maintenanceStaff: "Jose Ruiz",
+      dueDate: "2025-01-01",
+    },
+    {
+      id: 6,
+      property: "Luxury Condo 5B",
+      task: "Install new light fixtures",
+      maintenanceStaff: "Katharine Owens",
+      dueDate: "2025-01-01",
+    },
+    {
+      id: 7,
+      property: "Family Townhouse 7A",
+      task: "Fix heating system",
+      maintenanceStaff: "Shawn Norman",
+      dueDate: "2025-01-01",
+    },
+    {
+      id: 8,
+      property: "Elegant Studio 6B",
+      task: "Paint interior walls",
+      maintenanceStaff: "Don Holloway",
+      dueDate: "2025-01-01",
+    },
+    {
+      id: 9,
+      property: "Seaside Cottage 6C",
+      task: "Inspect roof for damage",
+      maintenanceStaff: "Franklin Gregory",
+      dueDate: "2025-01-01",
+    },
+    {
+      id: 10,
+      property: "Modern Penthouse 6D",
+      task: "Re-grout bathroom tiles",
+      maintenanceStaff: "Danny Nguyen",
+      dueDate: "2025-01-01",
+    },
+  ];
+    
