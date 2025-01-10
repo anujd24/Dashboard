@@ -302,4 +302,5 @@ export const tenantsData = [
       rentalAgreementStatus: "Active",
     },
   ];
+
   
