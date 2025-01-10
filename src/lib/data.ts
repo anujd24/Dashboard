@@ -991,4 +991,108 @@ export const tenantsData = [
     },
   ];
 
-  
+  export const rentalPropertyViewingSchedule = [
+    {
+      title: "Sunny Apartment 1A Viewing",
+      allDay: false,
+      start: new Date(2025, 0, 1, 8, 0),
+      end: new Date(2025, 0, 1, 8, 45),
+    },
+    {
+      title: "Cozy House 2A Viewing",
+      allDay: false,
+      start: new Date(2025, 0, 1, 9, 0),
+      end: new Date(2025, 0, 1, 9, 45),
+    },
+    {
+      title: "Modern Condo 3C Viewing",
+      allDay: false,
+      start: new Date(2025, 0, 1, 10, 0),
+      end: new Date(2025, 0, 1, 10, 45),
+    },
+    {
+      title: "Spacious Loft 4B Viewing",
+      allDay: false,
+      start: new Date(2025, 0, 1, 11, 0),
+      end: new Date(2025, 0, 1, 11, 45),
+    },
+    {
+      title: "Charming Villa 5A Viewing",
+      allDay: false,
+      start: new Date(2025, 0, 1, 13, 0),
+      end: new Date(2025, 0, 1, 13, 45),
+    },
+    {
+      title: "Luxury Condo 5B Viewing",
+      allDay: false,
+      start: new Date(2025, 0, 1, 14, 0),
+      end: new Date(2025, 0, 1, 14, 45),
+    },
+    {
+      title: "Family Townhouse 7A Viewing",
+      allDay: false,
+      start: new Date(2025, 0, 2, 9, 0),
+      end: new Date(2025, 0, 2, 9, 45),
+    },
+    {
+      title: "Elegant Studio 6B Viewing",
+      allDay: false,
+      start: new Date(2025, 0, 2, 10, 0),
+      end: new Date(2025, 0, 2, 10, 45),
+    },
+    {
+      title: "Seaside Cottage 6C Viewing",
+      allDay: false,
+      start: new Date(2025, 0, 2, 11, 0),
+      end: new Date(2025, 0, 2, 11, 45),
+    },
+    {
+      title: "Penthouse 6D Viewing",
+      allDay: false,
+      start: new Date(2025, 0, 2, 13, 0),
+      end: new Date(2025, 0, 2, 13, 45),
+    },
+    {
+      title: "Sunny Apartment 1A Viewing",
+      allDay: false,
+      start: new Date(2025, 0, 3, 8, 0),
+      end: new Date(2025, 0, 3, 8, 45),
+    },
+    {
+      title: "Cozy House 2A Viewing",
+      allDay: false,
+      start: new Date(2025, 0, 3, 9, 0),
+      end: new Date(2025, 0, 3, 9, 45),
+    },
+    {
+      title: "Modern Condo 3C Viewing",
+      allDay: false,
+      start: new Date(2025, 0, 3, 10, 0),
+      end: new Date(2025, 0, 3, 10, 45),
+    },
+    {
+      title: "Spacious Loft 4B Viewing",
+      allDay: false,
+      start: new Date(2025, 0, 3, 11, 0),
+      end: new Date(2025, 0, 3, 11, 45),
+    },
+    {
+      title: "Charming Villa 5A Viewing",
+      allDay: false,
+      start: new Date(2025, 0, 3, 13, 0),
+      end: new Date(2025, 0, 3, 13, 45),
+    },
+    {
+      title: "Luxury Condo 5B Viewing",
+      allDay: false,
+      start: new Date(2025, 0, 3, 14, 0),
+      end: new Date(2025, 0, 3, 14, 45),
+    },
+    {
+      title: "Family Townhouse 7A Viewing",
+      allDay: false,
+      start: new Date(2025, 0, 4, 9, 0),
+      end: new Date(2025, 0, 4, 9, 45),
+    },
+  ];
+    
