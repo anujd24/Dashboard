@@ -928,4 +928,66 @@ export const tenantsData = [
     },
   ];
   
+  export const rentalPropertyUpdatesData = [
+    {
+      id: 1,
+      title: "New Offer for Sunny Apartment 1A",
+      class: "1A",
+      date: "2025-01-01",
+    },
+    {
+      id: 2,
+      title: "Price Drop for Cozy House 2A",
+      class: "2A",
+      date: "2025-01-01",
+    },
+    {
+      id: 3,
+      title: "Availability Update for Modern Condo 3C",
+      class: "3A",
+      date: "2025-01-01",
+    },
+    {
+      id: 4,
+      title: "New Features in Spacious Loft 4B",
+      class: "4A",
+      date: "2025-01-01",
+    },
+    {
+      id: 5,
+      title: "Newly Renovated Charming Villa 5A",
+      class: "5A",
+      date: "2025-01-01",
+    },
+    {
+      id: 6,
+      title: "Luxury Condo 5B Available for Immediate Move-In",
+      class: "1B",
+      date: "2025-01-01",
+    },
+    {
+      id: 7,
+      title: "Family Townhouse 7A Special Discount",
+      class: "2B",
+      date: "2025-01-01",
+    },
+    {
+      id: 8,
+      title: "Price Increase for Elegant Studio 6B",
+      class: "3B",
+      date: "2025-01-01",
+    },
+    {
+      id: 9,
+      title: "Seaside Cottage 6C Available for Long-Term Rent",
+      class: "4B",
+      date: "2025-01-01",
+    },
+    {
+      id: 10,
+      title: "Modern Penthouse 6D New Listing",
+      class: "5B",
+      date: "2025-01-01",
+    },
+  ];
   
