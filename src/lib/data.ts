@@ -522,4 +522,5 @@ export const tenantsData = [
       propertyManager: "Ophelia Marsh",
     },
   ];
+
   
