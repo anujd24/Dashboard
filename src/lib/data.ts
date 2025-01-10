@@ -140,3 +140,166 @@ export const propertiesData = [
   },
 ];
 
+export const tenantsData = [
+    {
+      id: 1,
+      tenantId: "TEN123456",
+      name: "John Doe",
+      email: "john.doe@example.com",
+      photo:
+        "https://images.pexels.com/photos/2888150/pexels-photo-2888150.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      phone: "1234567890",
+      property: "Ocean View Apartment",
+      address: "123 Seaside Blvd, Miami, FL",
+      paymentHistory: [
+        { month: "January", amount: 2000, status: "Paid" },
+        { month: "February", amount: 2000, status: "Paid" },
+      ],
+      rentalAgreementStatus: "Active",
+    },
+    {
+      id: 2,
+      tenantId: "TEN789012",
+      name: "Jane Doe",
+      email: "jane.doe@example.com",
+      photo:
+        "https://images.pexels.com/photos/936126/pexels-photo-936126.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      phone: "1234567890",
+      property: "Downtown Loft",
+      address: "456 Main St, New York, NY",
+      paymentHistory: [
+        { month: "January", amount: 3500, status: "Paid" },
+        { month: "February", amount: 3500, status: "Pending" },
+      ],
+      rentalAgreementStatus: "Active",
+    },
+    {
+      id: 3,
+      tenantId: "TEN345678",
+      name: "Mike Geller",
+      email: "mike.geller@example.com",
+      photo:
+        "https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      phone: "1234567890",
+      property: "Suburban House",
+      address: "789 Pine St, Springfield, IL",
+      paymentHistory: [
+        { month: "January", amount: 1500, status: "Paid" },
+        { month: "February", amount: 1500, status: "Paid" },
+      ],
+      rentalAgreementStatus: "Active",
+    },
+    {
+      id: 4,
+      tenantId: "TEN901234",
+      name: "Jay French",
+      email: "jay.french@example.com",
+      photo:
+        "https://images.pexels.com/photos/1187765/pexels-photo-1187765.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      phone: "1234567890",
+      property: "Luxury Condo",
+      address: "101 Palm Drive, Los Angeles, CA",
+      paymentHistory: [
+        { month: "January", amount: 5000, status: "Paid" },
+        { month: "February", amount: 5000, status: "Pending" },
+      ],
+      rentalAgreementStatus: "Active",
+    },
+    {
+      id: 5,
+      tenantId: "TEN567890",
+      name: "Jane Smith",
+      email: "jane.smith@example.com",
+      photo:
+        "https://images.pexels.com/photos/1102341/pexels-photo-1102341.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      phone: "1234567890",
+      property: "City Studio",
+      address: "202 Central Ave, Boston, MA",
+      paymentHistory: [
+        { month: "January", amount: 1200, status: "Paid" },
+        { month: "February", amount: 1200, status: "Paid" },
+      ],
+      rentalAgreementStatus: "Active",
+    },
+    {
+      id: 6,
+      tenantId: "TEN678901",
+      name: "Anna Santiago",
+      email: "anna.santiago@example.com",
+      photo:
+        "https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      phone: "1234567890",
+      property: "Lakefront Villa",
+      address: "303 Lakeview Rd, Austin, TX",
+      paymentHistory: [
+        { month: "January", amount: 4000, status: "Paid" },
+        { month: "February", amount: 4000, status: "Pending" },
+      ],
+      rentalAgreementStatus: "Active",
+    },
+    {
+      id: 7,
+      tenantId: "TEN890123",
+      name: "Allen Black",
+      email: "allen.black@example.com",
+      photo:
+        "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      phone: "1234567890",
+      property: "Mountain Cabin",
+      address: "404 Alpine St, Denver, CO",
+      paymentHistory: [
+        { month: "January", amount: 2500, status: "Paid" },
+        { month: "February", amount: 2500, status: "Paid" },
+      ],
+      rentalAgreementStatus: "Active",
+    },
+    {
+      id: 8,
+      tenantId: "TEN234567",
+      name: "Ophelia Castro",
+      email: "ophelia.castro@example.com",
+      photo:
+        "https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      phone: "1234567890",
+      property: "Urban Penthouse",
+      address: "505 Skyline Ave, Seattle, WA",
+      paymentHistory: [
+        { month: "January", amount: 8000, status: "Paid" },
+        { month: "February", amount: 8000, status: "Pending" },
+      ],
+      rentalAgreementStatus: "Active",
+    },
+    {
+      id: 9,
+      tenantId: "TEN456789",
+      name: "Derek Briggs",
+      email: "derek.briggs@example.com",
+      photo:
+        "https://images.pexels.com/photos/842980/pexels-photo-842980.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      phone: "1234567890",
+      property: "Countryside Cottage",
+      address: "606 Meadow Ln, Nashville, TN",
+      paymentHistory: [
+        { month: "January", amount: 1800, status: "Paid" },
+        { month: "February", amount: 1800, status: "Paid" },
+      ],
+      rentalAgreementStatus: "Active",
+    },
+    {
+      id: 10,
+      tenantId: "TEN789345",
+      name: "John Glover",
+      email: "john.glover@example.com",
+      photo:
+        "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      phone: "1234567890",
+      property: "Modern Duplex",
+      address: "707 Grove St, Chicago, IL",
+      paymentHistory: [
+        { month: "January", amount: 3200, status: "Paid" },
+        { month: "February", amount: 3200, status: "Pending" },
+      ],
+      rentalAgreementStatus: "Active",
+    },
+  ];
+  
